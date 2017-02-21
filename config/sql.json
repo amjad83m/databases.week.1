@@ -1,0 +1,8 @@
+{
+	"q1": "SELECT COUNT(*) AS number_of_items FROM todos;",
+	"q2": "SELECT * FROM todos WHERE Done IS TRUE;",
+	"q3": "SELECT * FROM todos WHERE Done IS FALSE;",
+	"q4": "SELECT * FROM todos ORDER BY ID DESC;",
+	"q5": "SELECT * FROM todos ORDER BY ID DESC LIMIT 1;",
+    "q6": "SELECT * FROM todos WHERE Name LIKE '%database%';"
+}
